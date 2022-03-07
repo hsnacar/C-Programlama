@@ -2,6 +2,7 @@
 int main( void )
 {
 	printf("Hello World\nMerhaba Dunya");
+    return 0;
 }
 
 /*
@@ -24,5 +25,18 @@ void: main fonksiyonunun argümansız çağrılmak zorunda olmasını gösterir.
 printf: stdio.h kütüphanesine ait bir fonksiyondur ve ekrana yazıyı basmak için kullanılır.
 
 \n: new line anlamındadır. Hello World ekrana basıldıktan sonra alt satıra geçilmesini sağlar.
+
+return 0: return çağrılan fonksiyonun geriye değer döndürmesini sağlar. 
+          main fonksiyonu çağrılırken int türünde yani tam sayı geriye döndürmesi beklenmektedir.
+          hata mesajı almamak için geriye 0 (sıfır) döndürüyoruz.
+          Mesela iki sayının toplamını hesaplayan bir fonksiyon yazsaydık geriye toplama sonucu döndürülecektir => return sonuc; gibi..
+
+Not: Yazdığımız programın çalıştırılabilir olması için derlenmesi gereklidir.
+     GCC (GNU Compiler Collection - https://gcc.gnu.org/) indirip kullanabilirsiniz.
+     Terminal'de gcc -v yazarak varsa kurulu versiyona bakabilirsiniz.
+     ders1.c dosyasını derlemek için komut:
+        gcc ders1.c -o ders1
+    çalıştırmak için:
+        ./ders1
 
 */
