@@ -22,7 +22,7 @@ int main (void) {
 
     // (%) Mod alma veya kalan bulma aritmetik operatörü 
     toplam = ikinciSayi % ilkSayi;
-    printf("%d sayısı %d sayısına bölümünden kalan %d olur.\n", ikinciSayi, ilkSayi, toplam);
+    printf("%d sayısının %d sayısına bölümünden kalan %d olur.\n", ikinciSayi, ilkSayi, toplam);
 
     // (++) bir artırma operatörü 
     ilkSayi++;
@@ -44,5 +44,13 @@ Bu sebeple önceden ele almadığımız yerlere değinelim.
 
 28. satır: ++ operatörü örneğindeki ilkSayi++; ifadesi şunun kısa yazımıdır: ilkSayi = ilkSayi + 1;
 31. satır: -- operatörü örneğindeki ikinciSayi--; ifadesi şunun kısa yazımıdır: ikinciSayi = ikinciSayi - 1;
+
+Not: Yazdığımız programın çalıştırılabilir olması için derlenmesi gereklidir.
+     GCC (GNU Compiler Collection - https://gcc.gnu.org/) indirip kullanabilirsiniz.
+     Terminal'de gcc -v yazarak varsa kurulu versiyona bakabilirsiniz.
+     ders1.c dosyasını derlemek için komut:
+        gcc ders3.c -o ders3
+     çalıştırmak için:
+        ./ders3
 
 */
