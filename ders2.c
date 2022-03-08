@@ -76,4 +76,13 @@ float 32bit 3.4E-38 ila 3.4E-38
 double 64bit 1.7E-308 ila 1.7E+308
 long double 80bit 3.4E-4932 ila 1.1E+4932
 
+
+Not: Yazdığımız programın çalıştırılabilir olması için derlenmesi gereklidir.
+     GCC (GNU Compiler Collection - https://gcc.gnu.org/) indirip kullanabilirsiniz.
+     Terminal'de gcc -v yazarak varsa kurulu versiyona bakabilirsiniz.
+     ders1.c dosyasını derlemek için komut:
+        gcc ders2.c -o ders2
+     çalıştırmak için:
+        ./ders2
+
 */
