@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main( void )
 {
-	printf("Hello World\nMerhaba Dunya");
+    printf("Hello World\nMerhaba Dunya");
     return 0;
 }
 
@@ -11,7 +11,12 @@ include: programa dışarıdan bir dosyayı dahil etmek için kullanılır
 
 stdio.h: "standart input output" ifadesinin kısaltmasıdır
          printf scanf gibi fonksiyonlar stdio.h kütüphanesinde bulunduğu için
-         bu fonksiyonları ancak kütüphane dosyası programa dahil edilerek kullanabiliriz.
+         bu fonksiyonları ancak ilgili kütüphane dosyasını programa dahil edilerek kullanabiliriz.
+         Kütüphane eklemeden kullanılabilecek sadece 33 komut vardır:
+            auto, else, long, switch, break, enum, register, typedef,
+            case, extern, return, union, char, float, short, unsigned,
+            const, for, signed, void, continue, goto, sizeof, volatile,
+            default, if, static, while, do, int, struct, _Packed, double
 
 int:  tam sayı değişken türü. main'den dönecek değerin türünü tanımlamak için kullanılmış.
 
@@ -36,7 +41,7 @@ Not: Yazdığımız programın çalıştırılabilir olması için derlenmesi ge
      Terminal'de gcc -v yazarak varsa kurulu versiyona bakabilirsiniz.
      ders1.c dosyasını derlemek için komut:
         gcc ders1.c -o ders1
-    çalıştırmak için:
+     çalıştırmak için:
         ./ders1
 
 */
