@@ -25,9 +25,9 @@ Aynı konuları değişik özellikleriyle ilerleyen derslerde yeniden ele alıyo
 - for loop kullanımı, 1'den 100 kadarki sayıların toplamını bulma programı
 
 ###### ders8.c'de ele alınan konular:
-- scanf ile klavyeden bilgi girişi
+- & (ampersand) işaretinin ne işe yaradığını
 ###### ders9.c'de ele alınan konular:
-- 
+- scanf ile klavyeden bilgi girişi
 ###### ders10.c'de ele alınan konular:
 - 
 ###### ders11.c'de ele alınan konular:
