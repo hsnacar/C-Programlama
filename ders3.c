@@ -28,6 +28,7 @@ int main (void) {
     ilkSayi++;
     printf("ilkSayi++ kullanımı sonrası değişkenin değeri %d olmuştur\n", ilkSayi);
 
+    // (--) bir eksiltme operatörü 
     ikinciSayi--;
     printf("ikinciSayi-- kullanımı sonrası değişkenin değeri %d olmuştur\n", ikinciSayi);
 
