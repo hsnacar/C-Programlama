@@ -23,6 +23,15 @@ main fonksiyonu C için enter point yani başlangıç noktasıdır, bu sebeple h
 Bu örnekte toplamHesapla, carpmaHesapla ve cikarmaHesapla isminde üç fonksiyon daha bulunuyor.
 Fonksiyonlar kullanılmadan önce tanımlanmalıdır. Bu sebeple main'den önce fonksiyonlarımızı tanımladık.
 Fonksiyonlar çağrılmadan çalışmazlar. Mesela cikarmaHesapla isimli fonksiyon main içinde kullanılmadığı için çalışmamıştır.
-Burada bahsedilecek başka konular da var örnek kodumuzla ilgili ancak adım adım ilermek için onları başka örneklere bırakıyorum.
+
+Bu örnekte öğrenmeniz gereken, fonksiyonların nasıl tanımlandığı ve çağrıldığı meselesidir.
+toplamHesapla(x,y) ifadesi x ve y değerlerini toplamHesapla fonksiyonuna gönderiyor.
+toplamHesapla fonksiyonunda x ve y, a ile b'ye geçiriliyor.
+return (a + b) ile x ve y'nin toplamları geri döndürülüyor.
+toplamHesapla fonksiyonu a ve b tam sayı değerleri ile çağrılmazsa çalışmaz.
+Mesela toplamHesapla(x) şeklinde y yazılmadan gönderilseydi çalışmayacaktı.
+toplamHesapla(4,8) şeklinde hatasız çalışacaktır. İlla x ve y gibi değişken kullanılmak zorunda değildir.
+Fonksiyonlar hangi argümanları bekliyorsa ona göre çağrılmalıdır. toplamHesapla iki tane int türünde değerle çağrılmalıdır.
+Mesela toplamHesapla("hasan", "acar") şeklinde çağrılsaydı program hata verecekti.
 
 */
