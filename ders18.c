@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main (void) {
     int* bellek;
-    printf("bellek'in içeriği: %p\n", bellek);
+    printf("bellek'in içeriği: %u\n", bellek);
     return 0; 
 }
 
@@ -23,9 +23,10 @@ Daha önce 8. derste & (ampersand) işaretiyle değişkenin adresini ekrana yazd
 3. satırda "int bellek" yazmak yerine "int* bellek" yazdık. Buradaki yıldız işareti dikkatinizi çekmiştir.
 "int*" => "içerisinde int türünde veri olan hafıza alanının başlangıç adresini tutan değişken" demektir.
 Yukarıdaki programda bellek değişkenine bir değer ataması yapmadık. Sadece "int* bellek" şeklinde tanımlama yaptık.
-Ancak 4. satırda printf ile içeriğini ekrana bastığımızda 0x557a5aeb0040 gibi bir adres no görüyoruz.
+Ancak 4. satırda printf ile içeriğini ekrana bastığımızda 602165312 gibi bir adres no görüyoruz.
 Bunun sebebi "int* bellek" gibi bir değişken oluşturulduğunda (atama yapılmasa bile) veri türünün kapasitesi kadar hafızada bir yer hazırlanmasıdır.
-İşte pointer değişkenler bu adres verilerini tutmak için kullanılıyor.
+İşte pointer değişkenler bu adres verilerini tutmak için kullanılıyor. 
+Ayrıca pointer değişkenler printf içinde, her zaman pozitif bir değer olduğu için, %d değil %u (unsigned) karakter formatı ile kullanılıyor.
 
 C dili pointer değişkenleri üzerinden işlem yapmaya imkan tanıdığı için son derece hızlı ve etkili programlar yazmaya olanak verir.
 C dilini biliyorum diyebilmek için pointer konusunu tamamıyla anlamak bir zorunluluktur.
@@ -39,6 +40,6 @@ Bunun sebebi arka plandaki işleyişi yavaş yavaş size tanımak istememdir.
 Programın çıktısı:
 ------------------
 
-bellek'in içeriği: 0x55bacae6e040
+bellek'in içeriği: 602165312
 
 */
