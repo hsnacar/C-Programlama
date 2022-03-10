@@ -36,3 +36,6 @@ Aynı konuları değişik özellikleriyle ilerleyen derslerde yeniden ele alıyo
 
 ###### ders12.c'de ele alınan konular:
 - break deyimi ele alındı, sonsuz döngüden çıkmak için kullanıldı
+
+###### ders13.c'de ele alınan konular:
+- continue deyimi ele alındı
