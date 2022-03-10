@@ -30,3 +30,9 @@ Aynı konuları değişik özellikleriyle ilerleyen derslerde yeniden ele alıyo
 - scanf ile klavyeden bilgi girişi
 ###### ders10.c'de ele alınan konular:
 - switch-case kullanımı ve kopyalama-yapıştırma-kesme-kaydetme-seçme işlemlerinin kısayol tuşlarını öğreten programın yazılması
+
+###### ders11.c'de ele alınan konular:
+- while ve do...while döngüleri ele alındı, farkı izah edildi.
+
+###### ders12.c'de ele alınan konular:
+- break deyimi ele alındı, sonsuz döngüden çıkmak için kullanıldı
