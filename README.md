@@ -46,3 +46,6 @@ Aynı konuları değişik özellikleriyle ilerleyen derslerde yeniden ele alıyo
 ###### ders15.c'de ele alınan konular:
 - fonksiyon prototipi, fonksiyonların main()'den sonra nasıl tanımlanabileceği
 
+###### ders16.c'de ele alınan konular:
+- global değişken tanımlama
+
