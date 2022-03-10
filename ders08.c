@@ -20,3 +20,12 @@ int main (void) {
         Ancak 9. dersteki scanf kullanımı için bu konudan biraz bahsetmek istedim.
 
 */
+
+/*
+Programın çıktısı:
+------------------
+
+secim değişkeninin değeri şudur: 5 
+secim değişkeninin adresi şudur: 576096764 
+
+*/

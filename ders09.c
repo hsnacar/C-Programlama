@@ -27,3 +27,19 @@ int main (void) {
             secim değişkenin içeriği klavyeden girilene eşitlenmiş oluyor.
 
 */
+
+/*
+Programın çıktısı:
+------------------
+
+
+        1. Dosya
+        2. Düzenle
+        3. Görünüm
+        4. Çalıştır
+        5. Yardım
+        Lütfen yapmak istediğiniz işlemin numarasını girerek entere basınız: 1
+
+1 nolu işlemi seçtiniz.
+
+*/

@@ -40,3 +40,18 @@ Aritmetik operatörler ile atama operatörü beraber kullanılırken önce aritm
 y += x ifadesi y = y + x ifadesinin kısa yazılışıdır.
 
 */
+
+/*
+Programın çıktısı:
+------------------
+
+x = 5 olmak üzere
+(Uyarı: y'nin değeri her atamadan sonra değişmektedir)
+y = x atamasıyla y'nin değeri 5 oldu
+y += x atamasıyla y'nin değeri 10 oldu
+y -= x atamasıyla y'nin değeri 5 oldu
+y *= x atamasıyla y'nin değeri 25 oldu
+y /= x atamasıyla y'nin değeri 5 oldu
+y %= x atamasıyla y'nin değeri 0 oldu
+
+*/

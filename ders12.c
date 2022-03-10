@@ -24,3 +24,11 @@ int main(void){
     break çalıştırılınca program 13. satıra atlıyor yani döngünün dışındaki ilk satırdan devam ediyor.
 
 */
+
+/*
+Programın çıktısı:
+------------------
+
+1       2       3       4       5       6       7       8       9       10      
+
+*/

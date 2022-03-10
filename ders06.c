@@ -34,3 +34,12 @@ int main (void) {
     == (çift eşit) if ile beraber kullanılınca eşitse anlamındadır.
 
 */
+
+/*
+Programın çıktısı:
+------------------
+
+x sayısı (4) çift sayıdır
+y sayısı (5) tek sayıdır
+
+*/

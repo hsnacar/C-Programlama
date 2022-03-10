@@ -26,3 +26,10 @@ Eğer fonksiyonu main'den sonraya koymak isterseniz
 
 
 */
+
+/*
+Programın çıktısı:
+------------------
+
+x = 5, y = 10 olmak üzere, x + y = 15
+*/

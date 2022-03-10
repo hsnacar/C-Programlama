@@ -23,3 +23,12 @@ Eğer tek sayı ise döngü bir artırılarak yeniden başlatılıyor. (8. satı
 Dolayısıyla tek sayılarda printf ifadesi çalıştırılmadan döngü yeni adıma geçmeye zorlanıyor.
 
 */
+
+/*
+Programın çıktısı:
+------------------
+
+Sıfırdan yirmiye kadarki çift sayılar şunlardır: 
+        0       2       4       6       8       10      12      14      16      18      20
+        
+*/

@@ -54,3 +54,18 @@ case ile kontrol edilen durum sağlanırsa break'e kadarki kodlar çalıştırı
 Eğer sıralanan tüm case'ler için eşleşme olmazsa default çalıştırılır ve switch sonlandırılır.
 
 */
+
+/*
+Programın çıktısı:
+------------------
+
+        1. Kopyala
+        2. Kes
+        3. Yapıştır
+        4. Kaydet
+        5. Tamamını seç
+        Hangi işlemin kısayol tuşunu öğrenmek istiyorsunuz? 1
+
+CTRL + C ile kopyalama işlemi yapabilirsiniz
+
+*/

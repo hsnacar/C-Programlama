@@ -35,3 +35,13 @@ Fonksiyonlar hangi argümanları bekliyorsa ona göre çağrılmalıdır. toplam
 Mesela toplamHesapla("hasan", "acar") şeklinde çağrılsaydı program hata verecekti.
 
 */
+
+/*
+Programın çıktısı:
+------------------
+
+x = 4 ve y = 8 olmak üzere
+x ve y'nin toplamı: 12
+x ve y'nin çarpımı: 32
+
+*/

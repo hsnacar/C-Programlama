@@ -46,3 +46,12 @@ int main (void) {
         <=  Küçük eşittir
 
 */
+
+/*
+Programın çıktısı:
+------------------
+
+1'den 25 kadarki sayıların toplamı: 325 
+1'den 26 kadarki sayıların toplamı: 351 
+
+*/

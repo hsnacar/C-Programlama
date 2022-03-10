@@ -29,3 +29,11 @@ if deyimi ile kontrol edilen şart sağlanana kadar "goto tekrarla" ile program�
 sayi değişkeni 100 olunca "goto bitir" komutu çalıştı ve program akışı 17. satıra atlatıldı.
 
 */
+
+/*
+Programın çıktısı:
+------------------
+
+1'den 100'e kadarki sayıların toplamı: 5050
+
+*/

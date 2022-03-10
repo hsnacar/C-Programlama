@@ -44,3 +44,11 @@ daha önceki derslerden farklı olarak sadece 6. satır olduğu için o kısmı 
     son adımda i 100 olduğu için for biter ve printf satırına geçilir.
 
 */
+
+/*
+Programın çıktısı:
+------------------
+
+toplam: 4950
+
+*/

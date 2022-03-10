@@ -55,3 +55,17 @@ Not: Yazdığımız programın çalıştırılabilir olması için derlenmesi ge
         ./ders3
 
 */
+
+/*
+Programın çıktısı:
+------------------
+
+10 ile  20 toplanırsa sonuç 30 olur.
+30 sayısından 20 çıkarılırsa sonuç 10 olur.
+30 sayısıyla 10 çarpılırsa sonuç 300 olur.
+20 sayısı 10 sayısına bölünürse sonuç 2 olur.
+20 sayısının 10 sayısına bölümünden kalan 0 olur.
+ilkSayi++ kullanımı sonrası değişkenin değeri 11 olmuştur
+ikinciSayi-- kullanımı sonrası değişkenin değeri 19 olmuştur
+
+*/

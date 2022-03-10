@@ -42,3 +42,15 @@ Bu dersimizde global değişken tanımlamasını örneklendiren bir program haz�
 21-23 satırlarda: silindirinHacmi fonsiyonunun işlevini tanımladık.
 
 */
+
+/*
+Programın çıktısı:
+------------------
+
+Lütfen silindirin yarıçapını (r) giriniz: 5
+
+Lütfen silindirin yüksekliğini (h) giriniz: 10
+
+Girilen değerlere göre silindirin hacmi 785.398010 olarak hesaplandı.
+
+*/

@@ -45,3 +45,12 @@ Not: Yazdığımız programın çalıştırılabilir olması için derlenmesi ge
         ./ders1
 
 */
+
+/*
+Programın çıktısı:
+------------------
+
+Hello World
+Merhaba Dunya
+
+*/

@@ -49,3 +49,6 @@ Aynı konuları değişik özellikleriyle ilerleyen derslerde yeniden ele alıyo
 ###### ders16.c'de ele alınan konular:
 - global değişken tanımlama
 
+###### ders17.c'de ele alınan konular:
+- static deyimi ele alındı
+

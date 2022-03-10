@@ -86,3 +86,14 @@ Not: Yazdığımız programın çalıştırılabilir olması için derlenmesi ge
         ./ders2
 
 */
+
+/*
+Programın çıktısı:
+------------------
+
+Sabit: 1 
+Değişken: 1
+Sabit: 1 
+Değişken: 2
+
+*/
