@@ -52,3 +52,5 @@ Aynı konuları değişik özellikleriyle ilerleyen derslerde yeniden ele alıyo
 ###### ders17.c'de ele alınan konular:
 - static deyimi ele alındı
 
+###### ders18.c'de ele alınan konular:
+- pointer veri türünde değişken tanımlama ele alındı
