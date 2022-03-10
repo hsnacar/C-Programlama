@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main (void) {
-    int* bellek;
+    int* bellek; // int *bellek; ifadesi de aynı anlamdadır
     printf("bellek'in içeriği: %u\n", bellek);
     return 0; 
 }
@@ -21,7 +21,7 @@ Daha önce 8. derste & (ampersand) işaretiyle değişkenin adresini ekrana yazd
 
 Şimdi örnek kodumuza bakalım:
 3. satırda "int bellek" yazmak yerine "int* bellek" yazdık. Buradaki yıldız işareti dikkatinizi çekmiştir.
-"int*" => "içerisinde int türünde veri olan hafıza alanının başlangıç adresini tutan değişken" demektir.
+"int*" => "içerisinde int türünde veri olan hafıza alanının başlangıç adresini tutan değişken" demektir. (Tanımlama int *degiskenAdi; şeklinde de yapılabilir)
 Yukarıdaki programda bellek değişkenine bir değer ataması yapmadık. Sadece "int* bellek" şeklinde tanımlama yaptık.
 Ancak 4. satırda printf ile içeriğini ekrana bastığımızda 602165312 gibi bir adres no görüyoruz.
 Bunun sebebi "int* bellek" gibi bir değişken oluşturulduğunda (atama yapılmasa bile) veri türünün kapasitesi kadar hafızada bir yer hazırlanmasıdır.
