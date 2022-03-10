@@ -19,12 +19,10 @@ int main (void) {
 
     Bu dersimizde scanf ile kullanıcıdan bilgi girişinin nasıl yapıldığını ele aldık.
     scanf'in içindeki değişkenden önce & işaretinin kullanılmasına dikkat ediniz.
-    8. derste & işaretinin hafızadaki adresi gösterdiğini söylemiştik.
+    8. derste & işaretinin değişkenin hafızadaki adresini gösterdiğini söylemiştik.
     13. satırdaki scanf("%d",&secim); ifadesi şu şekilde işliyor:
         scanf ile kullanıcıdan bilgi girişi isteniyor,
-        girilen bilgi hafızada rastgele bir adrese kaydediliyor,
-        daha sonra secim değişkeninin adresi (&secim) üstte bahsettiğimiz rastgele belirlenmiş adrese eşitlenerek 
-            secim değişkenin içeriği klavyeden girilene eşitlenmiş oluyor.
+        daha sonra girilen veri &secim adresinin gösterdiği hafıza alanına kaydediliyor.
 
 */
 
