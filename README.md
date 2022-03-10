@@ -39,3 +39,7 @@ Aynı konuları değişik özellikleriyle ilerleyen derslerde yeniden ele alıyo
 
 ###### ders13.c'de ele alınan konular:
 - continue deyimi ele alındı
+
+###### ders14.c'de ele alınan konular:
+- goto deyimi ele alındı
+
