@@ -43,3 +43,6 @@ Aynı konuları değişik özellikleriyle ilerleyen derslerde yeniden ele alıyo
 ###### ders14.c'de ele alınan konular:
 - goto deyimi ele alındı
 
+###### ders15.c'de ele alınan konular:
+- fonksiyon prototipi, fonksiyonların main()'den sonra nasıl tanımlanabileceği
+
