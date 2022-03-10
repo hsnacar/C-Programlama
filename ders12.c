@@ -21,6 +21,6 @@ int main(void){
     break deyimi içinde bulunulan döngüyü sonlandırmak için kullanılır.
     for sonsuz döngüsü tekrarlanırken i her adımda bir artırılıyor.
     if ile i 10'a ulaşınca döngü break ile sonlandırılıyor.
-    break çalıştırılınca program 11. satıra atlıyor yani döngünün dışındaki ilk satırdan devam ediyor.
+    break çalıştırılınca program 13. satıra atlıyor yani döngünün dışındaki ilk satırdan devam ediyor.
 
 */
