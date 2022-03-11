@@ -24,7 +24,7 @@ Daha önce 8. derste & (ampersand) işaretiyle değişkenin adresini ekrana yazd
 "int*" => "içerisinde int türünde veri olan hafıza alanının başlangıç adresini tutan değişken" demektir. (Tanımlama int *degiskenAdi; şeklinde de yapılabilir)
 Yukarıdaki programda bellek değişkenine bir değer ataması yapmadık. Sadece "int* bellek" şeklinde tanımlama yaptık.
 Ancak 4. satırda printf ile içeriğini ekrana bastığımızda 602165312 gibi bir adres no görüyoruz.
-Bunun sebebi "int* bellek" gibi bir değişken oluşturulduğunda (atama yapılmasa bile) veri türünün kapasitesi kadar hafızada bir yer hazırlanmasıdır.
+Bunun sebebi "int* bellek" gibi bir değişken oluşturulduğunda (atama yapılmasa bile) veri türünün kapasitesi kadar hafızada bir yer hazırlanmasıdır. (? bundan %100 emin değilim, araştırıp burayı yeniden düzenleyeceğim)
 İşte pointer değişkenler bu adres verilerini tutmak için kullanılıyor. 
 Ayrıca pointer değişkenler printf içinde, her zaman pozitif bir değer olduğu için, %d değil %u (unsigned) karakter formatı ile kullanılıyor.
 
