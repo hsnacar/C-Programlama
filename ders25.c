@@ -35,7 +35,7 @@ Kodumuzu inceleyip olan bitene bakalım:
 11. satırda diziAdres++ yapıldığında adres numarasında 1 değil 4 artış meydana gelir. Bunun sebebi int'in hafızada işgal ettiği ünitesi sayısı kadar (4byte = 4 hafıza ünitesi) artış yapılır. 
 12. satırda diziAdres'in gösterdiği adresteki veriyi yazmak için *diziAdres şeklinde kullanılmıştır. Ekran çıktısı 50'dir.40'dan 50'ye bir dizi elemanı kadar ilerlenmiştir.
 
-14. ve 15. satırda iki kere diziAdres-- yazılarak iki dizi elemanı geriye gidilmiştir, adres olarak 8 adım geriye gidilmiş oluyor.
+14. ve 15. satırda iki kere diziAdres-- yazılarak, iki dizi elemanı kadar geriye gidilmiştir, adres olarak 8 adım geriye gidilmiş oluyor.
 
 16. satırda 50'den iki adım geriye gidildiği için ekran çıktısı 30 olacaktır.
 
