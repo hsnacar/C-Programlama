@@ -33,7 +33,7 @@ veya
 int ikiBoyut[][] = { {100,200,300}, {400,500,600} };
 
 Burada {100,200,300} ifadesinin indeks numara karşılığı: [0][0],[0][1],[0][2]
-{400,500,600} ise [1][0],[1][1],[1][2]
+       {400,500,600} ifadesinin indeks numara karşılığı: [1][0],[1][1],[1][2]
 
 İndeks sıralamaları 1'den değil 0'dan başladığı için kodları anlamlandırmak zor olabilir
     ancak biraz dikkat ederseniz olayı çözersiniz.

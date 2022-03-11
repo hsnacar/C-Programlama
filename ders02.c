@@ -11,10 +11,11 @@ int main(void){
 
 /*
 
-1. satır: stdio.h kütüphanesi printf fonksiyonu sebebiyle programa dahil ediliyor
-2. satır: main, programın zorunlu ana fonksiyonudur. void main fonksiyonunun argümansız çağrılacağını söyler. 
+1. satır: stdio.h kütüphanesi printf fonksiyonu kullanılabilmesi için programa dahil ediliyor
+2. satır: main, programın zorunlu ana fonksiyonudur. void, main fonksiyonunun argümansız çağrılacağını söyler. 
           int ise fonksiyonun int türünde bir değer döndüreceğini anlatıyor.
-3. satır: const bir sabit tanımlamak için kullanılır. const ile tanımlanan değişkenlerin içeriği daha sonra değiştirilemez. int veri türü yani tam sayı.
+3. satır: const bir sabit tanımlamak için kullanılır. const ile tanımlanan değişkenlerin içeriği daha sonra değiştirilemez. 
+          int veri türü yani tam sayı.
 4. satır: degisken isimli değişkene (variable) 1 tam sayısı atanıyor.
 5. satır: printf ekrana yazı basmak için kullanılır. %d çift tırnak içinde değişkenlerin sırasıyla geçirilmesini sağlar. 
           İlk %d "degismeyen"in değerini getirir. İkinci %d "degisken"in.
@@ -44,7 +45,7 @@ int main(void){
           \\ ters slash
           \ddd sekizli kodu ddd (1, 2 veya 3 adet sekizli rakam)
           \xhh onaltılı kodu hh (herhangi bir sayıda onaltılı rakam)
-6. satır: const olarak tanımlanmış değişkenlerin (variables) içeri daha sonra değiştirilemez. 
+6. satır: const olarak tanımlanmış değişkenlerin (variables) içeriği daha sonra değiştirilemez. 
           Bu sebeple bu satır program tarafından işletilmesin diye başına // koyularak yorum satırına çevrilmiştir. 
           Eğer // ifadesini silip derlemeye çalışırsanız hata alırsınız.
 7. satır: "degisken"e yeni bir değer atanıyor.
@@ -53,7 +54,7 @@ int main(void){
 10. satır: main fonksiyonunun kapsamı bitiriliyor.
 
 C Dilindeki Temel Veri Türleri: (Diğer derslerde burada yer almayanları da anlatacağım: array, pointer, structure, union, enum)
-int, tam sayılar (1, 7, 79 vb) Bit genişliği 16 olduğundan -32768 ile +32767 arasındaki tam sayıları tutabilir.
+int, tam sayılar (1, 7, 79 vb) -32768 ile +32767 arasındaki tam sayıları tutabilir.
 float ve double (kayan noktalı sayılar 1,5) float virgülden sonra 6 basamak double 10 basamak veri tutabilir.
 char, tek karakter (a,x,f). Bellekte 1 byte yer kaplar.
 bool, iki değer alabilir true ve false. mantıksal veri türüdür. 

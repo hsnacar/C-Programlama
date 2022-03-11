@@ -12,6 +12,7 @@ int main (void) {
     Bu derste & (ampersand) işaretinin ne işe yaradığını ele alıyoruz.
     RAM (random access memory - rastgele erişimli bellek) bilgisayarın önemli bir parçasıdır.
     Programımız çalışırken bir değişken oluşturup içine bir değer atadığında bu bilgiler memory'de yani hafızada tutulur.
+    Memory yani hafıza 1 byte'lık ünitelerden meydana gelir. Her 1 byte'ın numarası yani adresi vardır.
     & işaretiyle hafızada tutulan değişkenimizin hangi adreste depolandığını öğrenebiliyoruz.
     Örnek kodumuzda 4. satırdaki printf ifadesi secim değişkenin değerini ekrana basarken,
         5. satırdaki printf ifadesi &secim şeklinde kullanılarak secim değişkeninin hafızadaki adresini ekrana basmaktadır. 

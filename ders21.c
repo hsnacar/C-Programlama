@@ -14,13 +14,13 @@ int main(void){
 
 Bu dersimizde array yani dizi tanımlamayı ele aldık.
 array'ler yani diziler içinde birden fazla veriyi tutan koleksiyonlardır.
-3. satırda float veri türünde ismi dizi olan ve içindeki eleman sayısı 5 olan bir dizi tanımladık.
-4. 5. 6. 7. 8. satırda ise dizinin elemanlarına veri atadık.
+3. satırda "float" veri türünde adı "dizi" olan ve içindeki eleman sayısı 5 olan bir array(dizi) tanımladık.
+4. 5. 6. 7. 8. satırda ise array'ın (dizinin) elemanlarına veri atadık.
 Dizinin içindeki elemanlara indeks numarası ile ulaşırız
 Sıralama sıfırdan başlar: 0-1-2-3-4 şeklinde. 
 Dolayısıyla son indeks numarası 4 ise dizimizin içinde 5 tane eleman vardır.
 
-Dizilerin veri türü ve eleman sayısı daha sonra değiştirilemiyor.
+Dizilerin veri türü ve eleman sayısı daha sonra değiştirilemiyor. (Değiştirilebilmesi için dinamik hafıza ayırma yoluyla tanımlanması gerekir.)
 
 */
 

@@ -18,7 +18,7 @@ stdio.h: "standart input output" ifadesinin kısaltmasıdır
             const, for, signed, void, continue, goto, sizeof, volatile,
             default, if, static, while, do, int, struct, _Packed, double
 
-int:  tam sayı değişken türü. main'den dönecek değerin türünü tanımlamak için kullanılmış.
+int:  (integer) tam sayı değişken türü. main'den dönecek değerin türünü tanımlamak için kullanılmış.
 
 main: programın ana fonksiyonudur
       her c programında bir adet main fonksiyonu olmak zorundadır.
@@ -31,7 +31,7 @@ printf: stdio.h kütüphanesine ait bir fonksiyondur ve ekrana yazıyı basmak i
 
 \n: new line anlamındadır. Hello World ekrana basıldıktan sonra alt satıra geçilmesini sağlar.
 
-return 0: return çağrılan fonksiyonun geriye değer döndürmesini sağlar. 
+return 0: return, çağrılan fonksiyonun geriye değer döndürmesini sağlar. 
           main fonksiyonu çağrılırken int türünde yani tam sayı geriye döndürmesi beklenmektedir.
           hata mesajı almamak için geriye 0 (sıfır) döndürüyoruz.
           Mesela iki sayının toplamını hesaplayan bir fonksiyon yazsaydık geriye toplama sonucu döndürülecektir => return sonuc; gibi..

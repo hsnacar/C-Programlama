@@ -26,7 +26,7 @@ daha önceki derslerden farklı olarak sadece 6. satır olduğu için o kısmı 
     i++ ise i = i + 1 anlamındadır ve döngü her seferinde 1 artacak anlamındadır.
     6. satırı şu şekilde cümle haline getirebiliriz: i sıfırdan başlayarak 100'e kadar her döngüde bir artarak aşağıdaki işlem yapılsın. 
 
-    Döngü şöyle hareket ediyor:
+    Döngünün içi şöyle hareket ediyor:
     
     döngü i = 0 için başlar
     toplam değişkeninin değeri ile i değeri toplanır: 0 + 0

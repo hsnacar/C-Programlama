@@ -22,7 +22,7 @@ Daha önceki derslerde programımızda sadece main fonksiyonu vardı.
 main fonksiyonu C için enter point yani başlangıç noktasıdır, bu sebeple her programda bir tane bulunmak zorundadır.
 Bu örnekte toplamHesapla, carpmaHesapla ve cikarmaHesapla isminde üç fonksiyon daha bulunuyor.
 Fonksiyonlar kullanılmadan önce tanımlanmalıdır. Bu sebeple main'den önce fonksiyonlarımızı tanımladık.
-Fonksiyonlar çağrılmadan çalışmazlar. Mesela cikarmaHesapla isimli fonksiyon main içinde kullanılmadığı için çalışmamıştır.
+Fonksiyonlar çağrılmadan çalışmazlar. Mesela cikarmaHesapla isimli fonksiyon main içinde çağrılmadığı hiç için çalışmamıştır.
 
 Bu örnekte öğrenmeniz gereken, fonksiyonların nasıl tanımlandığı ve çağrıldığı meselesidir.
 toplamHesapla(x,y) ifadesi x ve y değerlerini toplamHesapla fonksiyonuna gönderiyor.

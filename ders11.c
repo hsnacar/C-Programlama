@@ -33,7 +33,7 @@ int main (void) {
    ancak do-while döngüsü böyle değildir. do-while döngüsünde koşul en sonda kontrol edildiği için
    do ile başlayan blok içindekiler en az bir kere çalıştırılır ve döngünün sonunda koşul o şekilde kontrol edilir.
    örneğimizde son değişkeni ilk while döngüsünde 25'e ulaşıyor.
-   normalde ikinci döngü olan do-while çalışmaması lazım çünkü her iki döngünün koşulu da aynı 25'ten küçük veya eşit olması durumu.
+   normalde ikinci döngü olan do-while çalışmaması lazım çünkü her iki döngünün koşulu da aynı, 25'ten küçük veya eşit olması durumu.
    ancak do-while döngüsü en az bir kez çalışıp sonra koşul kontrol edildiği için son değişkeni 25'ten 26'ya 16. satırda artırılıyor.
 
    Bu derste daha önce görmediğimiz ilişkisel operatörlerden biri olan <= (küçük eşittir)'e rastladık.

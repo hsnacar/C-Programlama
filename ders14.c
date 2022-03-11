@@ -24,7 +24,7 @@ int main(void){
 
 Bu dersimizde goto deyimini ele alıyoruz.
 goto, programcılar tarafından çok gerekli değilse kullanılmak istenmeyen bir deyimdir.
-Örnek programımızda tekrarla (6. satır) ve bitir (17. satır) ismiyle iki gidilebilecek yer oluşturduk.
+Örnek programımızda "tekrarla" (6. satır) ve "bitir" (17. satır) ismiyle iki gidilebilecek yer oluşturduk.
 if deyimi ile kontrol edilen şart sağlanana kadar "goto tekrarla" ile programı 12.'i satırdan 6. satıra geri döndürdük.
 sayi değişkeni 100 olunca "goto bitir" komutu çalıştı ve program akışı 17. satıra atlatıldı.
 

@@ -35,7 +35,7 @@ int main (void) {
 /*
 C dilinde atama işlemleri = ile yapılır. 
 Atama operatörü aritmetik operatörlerle birlikte de kullanılabilir.
-Aritmetik operatörler ile atama operatörü beraber kullanılırken önce aritmetik operatör yazılır.
+Aritmetik operatörler ile atama operatörü beraber kullanılırken önce aritmetik operatör sonra atama operatörü yazılır.
 
 y += x ifadesi y = y + x ifadesinin kısa yazılışıdır.
 
