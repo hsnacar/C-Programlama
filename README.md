@@ -60,3 +60,12 @@ Aynı konuları değişik özellikleriyle ilerleyen derslerde yeniden ele alıyo
 
 ###### ders20.c'de ele alınan konular:
 - *'ın karıştırılan iki kullanımını örneklendirdik, pointer'in verisini okumayı ele aldık.
+
+###### ders21.c'de ele alınan konular:
+- dizi tanımlama ve değer atama ele alındı
+
+###### ders22.c'de ele alınan konular:
+- diziyi tek satırda hem tanımlama hem de değer atamayı örneklendirdik
+
+###### ders23.c'de ele alınan konular:
+- iki boyutlu dizi tanımlamayı ele aldık
