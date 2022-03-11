@@ -32,16 +32,16 @@ Aynı konuları değişik özellikleriyle ilerleyen derslerde yeniden ele alıyo
 - switch-case kullanımı ve kopyalama-yapıştırma-kesme-kaydetme-seçme işlemlerinin kısayol tuşlarını öğreten programın yazılması
 
 ###### ders11.c'de ele alınan konular:
-- while ve do...while döngüleri ele alındı, farkı izah edildi.
+- while ve do...while döngüleri ve ikisinin farkı
 
 ###### ders12.c'de ele alınan konular:
-- break deyimi ele alındı, sonsuz döngüden çıkmak için kullanıldı
+- break deyimi, sonsuz döngüden çıkmak için kullanılması
 
 ###### ders13.c'de ele alınan konular:
-- continue deyimi ele alındı
+- continue deyimi
 
 ###### ders14.c'de ele alınan konular:
-- goto deyimi ele alındı
+- goto deyimi
 
 ###### ders15.c'de ele alınan konular:
 - fonksiyon prototipi, fonksiyonların main()'den sonra nasıl tanımlanabileceği
@@ -50,28 +50,28 @@ Aynı konuları değişik özellikleriyle ilerleyen derslerde yeniden ele alıyo
 - global değişken tanımlama
 
 ###### ders17.c'de ele alınan konular:
-- static deyimi ele alındı
+- static deyimi 
 
 ###### ders18.c'de ele alınan konular:
-- pointer veri türünde değişken tanımlama ele alındı
+- pointer veri türünde değişken tanımlama 
 
 ###### ders19.c'de ele alınan konular:
-- bir değişkenin bellek adresini başka bir pointer değişkene atamayı örneklendirdik
+- bir değişkenin hafıza adresini pointer değişkene atama
 
 ###### ders20.c'de ele alınan konular:
-- *'ın karıştırılan iki kullanımını örneklendirdik, pointer'in verisini okumayı ele aldık.
+- *'ın karıştırılan iki kullanımı, pointer'in gösterdiği hafıza ünitesindeki veriye ulaşma
 
 ###### ders21.c'de ele alınan konular:
-- dizi tanımlama ve değer atama ele alındı
+- dizi tanımlama ve dizi elemanlarına değer atama
 
 ###### ders22.c'de ele alınan konular:
-- diziyi tek satırda hem tanımlama hem de değer atamayı örneklendirdik
+- diziyi tek satırda tanımlama ve değer atama
 
 ###### ders23.c'de ele alınan konular:
-- iki boyutlu dizi tanımlamayı ele aldık
+- iki boyutlu dizi tanımlama
 
 ###### ders24.c'de ele alınan konular:
-- dizilerin hafızadaki adreslerini ele aldık
+- dizilerin ve elemanlarının hafızadaki adresleri
 
 ###### ders25.c'de ele alınan konular:
-- pointer değişkenin bir artırılmasını/eksiltmesini ele aldık
+- pointer değişkenin bir artırılması/eksiltmesi
