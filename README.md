@@ -69,3 +69,9 @@ Aynı konuları değişik özellikleriyle ilerleyen derslerde yeniden ele alıyo
 
 ###### ders23.c'de ele alınan konular:
 - iki boyutlu dizi tanımlamayı ele aldık
+
+###### ders24.c'de ele alınan konular:
+- dizilerin hafızadaki adreslerini ele aldık
+
+###### ders25.c'de ele alınan konular:
+- pointer değişkenin bir artırılmasını/eksiltmesini ele aldık
