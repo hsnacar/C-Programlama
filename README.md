@@ -54,3 +54,9 @@ Aynı konuları değişik özellikleriyle ilerleyen derslerde yeniden ele alıyo
 
 ###### ders18.c'de ele alınan konular:
 - pointer veri türünde değişken tanımlama ele alındı
+
+###### ders19.c'de ele alınan konular:
+- bir değişkenin bellek adresini başka bir pointer değişkene atamayı örneklendirdik
+
+###### ders20.c'de ele alınan konular:
+- *'ın karıştırılan iki kullanımını örneklendirdik, pointer'in verisini okumayı ele aldık.

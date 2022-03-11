@@ -22,3 +22,14 @@ Bu şu anlama geliyor, "5"i depolayan hafıza kümesine ulaşım için elimizde 
 Bunun ne işe yarayacağı diğer dersteki örneğimizde.
 
 */
+
+/*
+Programın çıktısı:
+------------------
+
+rakam'ın hafıza adresi: 3003843452 
+bellek'in hafıza adresi: 4096 
+rakam'ın adresi bellek'e aktarıldıktan sonra 
+bellek'in yeni hafıza adresi: 3003843452 
+
+*/
