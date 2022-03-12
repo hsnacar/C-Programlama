@@ -1,8 +1,8 @@
-#include<stdio.h>
-int main( void )
+#include <stdio.h>
+int main(void)
 {
-    printf("Hello World\nMerhaba Dunya");
-    return 0;
+      printf("Hello World\nMerhaba Dunya");
+      return 0;
 }
 
 /*
@@ -31,7 +31,7 @@ printf: stdio.h kütüphanesine ait bir fonksiyondur ve ekrana yazıyı basmak i
 
 \n: new line anlamındadır. Hello World ekrana basıldıktan sonra alt satıra geçilmesini sağlar.
 
-return 0: return, çağrılan fonksiyonun geriye değer döndürmesini sağlar. 
+return 0: return, çağrılan fonksiyonun geriye değer döndürmesini sağlar.
           main fonksiyonu çağrılırken int türünde yani tam sayı geriye döndürmesi beklenmektedir.
           hata mesajı almamak için geriye 0 (sıfır) döndürüyoruz.
           Mesela iki sayının toplamını hesaplayan bir fonksiyon yazsaydık geriye toplama sonucu döndürülecektir => return sonuc; gibi..

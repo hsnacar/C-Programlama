@@ -1,5 +1,6 @@
-#include<stdio.h>
-int main (void) {
+#include <stdio.h>
+int main(void)
+{
 
     int x = 5, y;
     printf("x = %d olmak üzere\n", x);
@@ -10,7 +11,7 @@ int main (void) {
     printf("y = x atamasıyla y'nin değeri %d oldu\n", y);
 
     // (+=) Toplayarak Atama
-    y += x; // y = y + x 
+    y += x; // y = y + x
     printf("y += x atamasıyla y'nin değeri %d oldu\n", y);
 
     // (-=) Çıkartarak Atama
@@ -23,21 +24,23 @@ int main (void) {
 
     // (/=) Bölerek Atama
     y /= x; // y = y / x
-    printf("y /= x atamasıyla y'nin değeri %d oldu\n", y); 
+    printf("y /= x atamasıyla y'nin değeri %d oldu\n", y);
 
     // (%=) Mod alarak Atama
     y %= x; // y = y % x
-    printf("y %= x atamasıyla y'nin değeri %d oldu\n", y);
+    printf("y %%= x atamasıyla y'nin değeri %d oldu\n", y);
 
     return 0;
 }
 
 /*
-C dilinde atama işlemleri = ile yapılır. 
+C dilinde atama işlemleri = ile yapılır.
 Atama operatörü aritmetik operatörlerle birlikte de kullanılabilir.
 Aritmetik operatörler ile atama operatörü beraber kullanılırken önce aritmetik operatör sonra atama operatörü yazılır.
 
 y += x ifadesi y = y + x ifadesinin kısa yazılışıdır.
+
+Not: % işaretini printf ile ekrana basmak için %% şeklinde kullanmalısınız. (satır 31)
 
 */
 

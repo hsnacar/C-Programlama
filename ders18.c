@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main (void) {
     int* bellek; // int *bellek; ifadesi de aynı anlamdadır
-    printf("bellek'in kendi hafıza ünitesi adresi: %u\n", &bellek);
+    printf("bellek'in kendi hafıza ünitesi adresi: %p\n", &bellek);
     return 0; 
 }
 
@@ -20,13 +20,13 @@ Daha önce 8. derste & (ampersand) işaretiyle değişkenin adresini ekrana yazd
 İşte a değişkeninin &a ifadesiyle adresine baktığımızda 201'i yani a'ya ayrılan hafıza ünitelerinin başlangıç adresini görürüz.
 
 Şimdi örnek kodumuza bakalım:
-3. satırda "int bellek" yazmak yerine "int* bellek" yazdık. Buradaki yıldız işareti dikkatinizi çekmiştir.
-"int*" => pointer değişken tanımlıyorum demektir. (Tanımlama int *degiskenAdi; şeklinde de yapılabilir)
-Yukarıdaki programda bellek pointer değişkenine bir değer ataması yapmadık. Sadece "int* bellek" şeklinde tanımlama yaptık.
-Ancak 4. satırda printf ile &bellek şeklinde kendi adresini ekrana bastığımızda 901464352 gibi bir adres no görüyoruz.
+3. satırda "int bellek" yazmak yerine "int* bellek" yazdık. Burada yıldız işareti dikkatinizi çekmiştir.
+"int* bellek" ifadesi pointer değişken tanımlıyorum demektir. (Tanımlama int *degiskenAdi; şeklinde de yapılabilir)
+Yukarıdaki programda "bellek" pointer değişkenine bir değer ataması yapmadık. Sadece "int* bellek" pointer'in adını tanımlamadık. Yani henüz değişken herhangi bir bilgi depolamıyor.
+Ancak 4. satırda printf ile &bellek şeklinde pointer'ın kendi adresini ekrana bastığımızda 0x7ff7ba9637b0 gibi bir adres no görüyoruz.
 Bunun sebebi "int* bellek" gibi bir pointer değişken oluşturulduğunda hafızada bir adres tutacak kadar yer ayrılır. Bu yerin adresi pointer değişkenimizin kendi adresidir.
-Pointer değişkenin depolayacağı adres örneğimizde yazılmadığı için henüz printf("%u", bellek) şeklinde ekrana yazdırılmak istendiğinde bir adres numarası ekranda görünmeyecektir.
-(Pointer değişkenler printf içinde, her zaman pozitif bir değer olduğu için, %d değil %u (unsigned) karakter formatı ile kullanılıyor.)
+Pointer değişkenin depolayacağı adres örneğimizde yazılmadığı için henüz printf("%p", bellek) şeklinde ekrana yazdırılmak istendiğinde bir adres numarası ekranda görünmeyecektir.
+(Pointer değişkenler printf içinde %p karakter formatı ile kullanılıyor.)
 
 Not: Bu ders, ders19 için bir hazırlıktır.
 
@@ -36,6 +36,6 @@ Not: Bu ders, ders19 için bir hazırlıktır.
 Programın çıktısı:
 ------------------
 
-bellek'in kendi hafıza ünitesi adresi: 901464352
+bellek'in kendi hafıza ünitesi adresi: 0x7ff7ba9637b0
 
 */

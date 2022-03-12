@@ -2,10 +2,10 @@
 int main (void) {
     int* bellek; 
     int rakam = 5;
-    printf("rakam'ın hafıza adresi: %u \n", &rakam);
-    printf("bellek'in hafıza adresi: %u \n", bellek);
+    printf("rakam'ın hafıza adresi: %p \n", &rakam);
+    printf("bellek'in hafıza adresi: %p \n", &bellek);
     bellek = &rakam;
-    printf("rakam'ın adresi bellek'e aktarıldıktan sonra \nbellek'in yeni hafıza adresi: %u \n", bellek);
+    printf("rakam'ın adresi bellek'e aktarıldıktan sonra \nbellek'in işaret ettiği/gösterdiği hafıza adresi: %p \n", bellek);
     return 0; 
 }
 
@@ -27,9 +27,9 @@ Bunun ne işe yarayacağı diğer dersteki örneğimizde.
 Programın çıktısı:
 ------------------
 
-rakam'ın hafıza adresi: 3003843452 
-bellek'in hafıza adresi: 4096 
+rakam'ın hafıza adresi: 0x7ff7b64277ac 
+bellek'in hafıza adresi: 0x7ff7b64277b0 
 rakam'ın adresi bellek'e aktarıldıktan sonra 
-bellek'in yeni hafıza adresi: 3003843452 
+bellek'in işaret ettiği gösterdiği hafıza adresi: 0x7ff7b64277ac 
 
 */
