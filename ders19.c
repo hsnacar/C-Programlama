@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main (void) {
-    int* bellek; 
+    int* bellek = NULL; 
     int rakam = 5;
     printf("rakam'ın hafıza adresi: %p \n", &rakam);
     printf("bellek'in hafıza adresi: %p \n", &bellek);

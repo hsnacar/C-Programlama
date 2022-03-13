@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main (void) {
-    int *bellek; // int* bellek; kullanımı ile aynıdır 
+    int *bellek = NULL;
     int rakam = 5;
     bellek = &rakam;
     printf("bellek'teki adresin gösterdiği veri: %d \n", *bellek);

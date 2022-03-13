@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main (void) {
-    int* bellek; // int *bellek; ifadesi de aynı anlamdadır
+    int* bellek = NULL; // int *bellek = NULL; ifadesi de aynı anlamdadır
     printf("bellek'in kendi hafıza ünitesi adresi: %p\n", &bellek);
     return 0; 
 }
