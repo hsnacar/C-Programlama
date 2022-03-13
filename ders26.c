@@ -5,7 +5,7 @@ int main(void){
     int dizi[] = { 10, 20, 30, 40, 50 };    
     int* diziAdres = NULL;
 
-    diziAdres = &dizi[0];
+    diziAdres = dizi;
 
     printf("ilk eleman = %d \n", *diziAdres);
     printf("ikinci eleman = %d \n", *(diziAdres + 1));
@@ -22,7 +22,8 @@ int main(void){
 
 Bu dersimizde pointer ile array'in elemanlarına nasıl erişildiğini örneklendirdik.
 
-8. satırdaki atamayla diziAdres pointeri dizi array'ının ilk elemanının adresini (aynı zamanda array'ın başlangıç adresini) tutmaya başladı.
+8. satırdaki atamayla diziAdres pointerini dizi array'ına eşitledik. 
+    diziAdres bir pointer değişken olduğu için dizi'ye değil dizi'nin başlangıç adresine eşitlendi!
 Artık dizi değişken adını kullanmadan array'ın elemanlarına erişebiliriz.
 10 ve 14 satırlar arasında array elemanlarını değişken adı kullanmadan pointer ile ekrana basabildik.
 

@@ -27,6 +27,10 @@ rakamlar dizisini gösteren bir pointer tanımlasaydık
 
 7. satırda da pointerlardaki kullanımın aynısını görüyoruz. + 1 ile array'ın bir diğer elemanına geçiş yapılabiliyor.
 
+Aslında anlamamız gereken şey şudur: *rakamlar ifadesi rakamlar[0] ifadesinin eşitidir.
+rakamlar, array'in adıdır ve aynı zamanda array'ın başlangıç adresini tutan bir pointer gibidir.
+Yani rakamlar ifadesi &rakamlar[0] demektir. Bunları birbirinin yerine kullanmayı deneyerek sonuçları gözlemleyin.
+
 */
 
 /*
