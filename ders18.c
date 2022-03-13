@@ -29,6 +29,9 @@ Pointer değişkenin depolayacağı adres örneğimizde yazılmadığı için he
 (Pointer değişkenler printf içinde %p karakter formatı ile kullanılıyor.)
 
 Not: Bu ders, ders19 için bir hazırlıktır.
+Not 2: pointer tanımlandığında herhangi bir adrese henüz işaret etmediği için NULL'a yani tanımsızlık durumuna ayarlanmalı. 
+Bu sayede herhangi bir adres karışıklığı vs yaşanmasının önüne geçilmiş olur.
+
 
 */
 
