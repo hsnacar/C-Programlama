@@ -115,3 +115,11 @@ Aynı konuları değişik özellikleriyle ilerleyen derslerde yeniden inceliyoru
 ###### ders28.c'de incelenen konular:
 
 - "a[x]" "x[a]" "\*(x + a)" "\*(a + x)" ifadelerinin neden aynı anlama geldiği
+
+###### ders29.c'de incelenen konular:
+
+- kendi kütüphane dosyamızı include etmek
+
+###### ders30.c'de incelenen konular:
+
+- extern kullanımı, bağlantı durumuna göre sınıflandırma
