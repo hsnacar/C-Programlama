@@ -114,4 +114,4 @@ Aynı konuları değişik özellikleriyle ilerleyen derslerde yeniden inceliyoru
 
 ###### ders28.c'de incelenen konular:
 
--
+- "a[x]" "x[a]" "\*(x + a)" "\*(a + x)" ifadelerini neden aynı anlama geldiği
