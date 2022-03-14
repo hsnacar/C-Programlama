@@ -123,3 +123,16 @@ Aynı konuları değişik özellikleriyle ilerleyen derslerde yeniden inceliyoru
 ###### ders30.c'de incelenen konular:
 
 - extern kullanımı, bağlantı durumuna göre sınıflandırma
+- birden fazla dosyayı derleme aşamasında kullanma
+
+###### ders31.c'de incelenen konular:
+
+- typedef kullanımı
+
+###### ders32.c'de incelenen konular:
+
+- karakter array'leri (dizileri)
+
+###### ders33.c'de incelenen konular:
+
+- karakter array'lerinin (dizilerinin) son elemanı
