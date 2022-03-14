@@ -9,6 +9,12 @@ int main(void)
     printf("%d \n", 3[rakamlar]);
     printf("%d \n", 4[rakamlar]);
 
+    printf("Aşağıdaki ifadelerin hepsi aynı veriyi ekrana basıyor. \n");
+    printf("%d \n", rakamlar[3]);
+    printf("%d \n", 3[rakamlar]);
+    printf("%d \n", *(rakamlar + 3));
+    printf("%d \n", *(3 + rakamlar));
+
     return 0;
 }
 
@@ -25,11 +31,18 @@ ders21'de arrayAdi[x] kullanımını
 ders27'de *(arrayAdi + x) kullanımını örneklendirerek bunların aynı anlama geldiğini anlatmıştık.
 Bu dersimizde de x[arrayAdi] kullanımının da diğerleriyle aynı olduğunu gösteriyoruz.
 
-Aslında mesele şu:
+arrayAdi[x] ile x[arrayAdi]'nin birbirine eşit olması durumunun geldiği yer şudur:
 
-veri bir tane olmasına karşın verinin adresine işaret edenler ise birden fazla olabiliyor! 
-(Bunun tersi mümkün değil yalnız. İki veriyi gösteren bir adet pointer yani gösterici olmaz)
+*(arrayAdi + x) ile *(x + arrayAdi) aynı manaya gelmektedir. (x int türündedir)
+Bunun sebebi parantez içinde bir int (integer) yani tam sayi bir de pointer değişken (sıraya bakılmaksızın) şartı aranıyor.
+Derleyici hangi sırada olduğuna bakmadan pointer değişken adını alıp tam sayı ile beraber işleme koyuyor.
+Dolayısıyla x[a] ile a[x] aynı manaya geliyor. 
+*(x + a) ve *(a + x) ile beraber aşağıdaki dört ifade de ekrana aynı veriyi yazar:
 
+printf("%d \n", rakamlar[3]);
+printf("%d \n", 3[rakamlar]);
+printf("%d \n", *(rakamlar + 3));
+printf("%d \n", *(3 + rakamlar));
 
 */
 
@@ -42,5 +55,10 @@ Programın çıktısı:
 2 
 3 
 4 
+Aşağıdaki ifadelerin hepsi aynı veriyi ekrana basıyor. 
+3 
+3 
+3 
+3 
 
 */
