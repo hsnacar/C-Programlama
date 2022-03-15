@@ -67,6 +67,21 @@ Mesela kargo.kargoNo şeklinde kargo veri koleksiyonunun int türündeki kargoNo
 
 Atadığımız verileri printf ile ekrana basarken veri türüne göre %d %s %f kullanımlarına dikkat ediniz.
 
+Not: Bir struct deklarasyonu yaparken değişkeni de aynı yerde deklare edebiliriz. 
+Yukarıdaki örneğin 16. satırını silerek şu şekilde deneyin:
+
+struct kargoBilgileri
+{
+    int kargoNo;
+    char gonderen[30];
+    char alici[30];
+    char gonderenTel[15];
+    char aliciTel[15];
+    float kargoAgirligi;
+} kargo;
+
+kargo değişkenini yapının sonuna ekleyerek deklare ettik.
+
 */
 
 /*

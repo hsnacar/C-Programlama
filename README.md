@@ -140,4 +140,4 @@ Aynı konuları değişik özellikleriyle ilerleyen derslerde yeniden inceliyoru
 ###### ders34.c'de incelenen konular:
 
 - strcpy fonksiyonu
-- struct deklarasyonu ve değikene değer atama
+- struct deklarasyonu ve değişkene değer atama
