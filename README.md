@@ -141,3 +141,7 @@ Aynı konuları değişik özellikleriyle ilerleyen derslerde yeniden inceliyoru
 
 - strcpy fonksiyonu
 - struct deklarasyonu ve değişkene değer atama
+
+###### ders35.c'de incelenen konular:
+
+- iç içe struct kullanımı
