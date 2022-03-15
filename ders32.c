@@ -14,7 +14,7 @@ int main(void){
 
 C programlama dilinde string diye bir veri türü yoktur. Eğer başka dillerle ilgilendiyseniz bu size biraz garip gelebilir.
 
-C dilinde string yerine karakter dizileri (array'leri) vardır. 
+C dilinde string yerine karakter dizileri (char array'leri) vardır. 
 
 5. satırda, "Elif Zehra" şeklindeki ifade char veri türünde tanımlanmış bir array'dir. (dizidir)
             bu tanımlamada 20, karakter dizisinin hafızada depolanacak maksimum uzunluğudur.
