@@ -136,3 +136,8 @@ Aynı konuları değişik özellikleriyle ilerleyen derslerde yeniden inceliyoru
 ###### ders33.c'de incelenen konular:
 
 - karakter array'lerinin (dizilerinin) son elemanı
+
+###### ders34.c'de incelenen konular:
+
+- strcpy fonksiyonu
+- struct deklarasyonu ve değikene değer atama
