@@ -145,3 +145,11 @@ Aynı konuları değişik özellikleriyle ilerleyen derslerde yeniden inceliyoru
 ###### ders35.c'de incelenen konular:
 
 - iç içe struct kullanımı
+
+###### ders36.c'de incelenen konular:
+
+- preprocessor (önişlemci) nedir ve önişlemci değişkeni tanımlama
+
+###### ders37.c'de incelenen konular:
+
+- struct ile typedef kullanımı, ekrana renkli yazı basma

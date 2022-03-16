@@ -40,7 +40,6 @@ int main(void){
         yeniKayit.aile.kardesSayisi
     );
 
-
     return 0;
 
 }
@@ -52,6 +51,8 @@ Bu derste struct'ların iç içe kullanımını örneklendirdim.
 struct ogrenciAileBilgileri aile; ifadesiyle başka bir struct yani yapıyı ogrenci struct'ının içine dahil ettik.
 İç içe yapıların deklarasyonu böyle olurken veri atamasında yeniKayit.aile.babaAdi şeklindeki kullanıma dikkat ediniz.
 Struct'ın içindeki diğer struct'a ulaşmak için ikinci defa nokta işaretini kullanıyoruz.
+
+Bu derste ilk defa gördüğümüz bir kullanım da, struct deklare ederken değişken adını da (yeniKayit) yapının en sonunda (19. satırda) deklare ettik.
 
 */
 
