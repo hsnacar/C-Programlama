@@ -153,3 +153,11 @@ Aynı konuları değişik özellikleriyle ilerleyen derslerde yeniden inceliyoru
 ###### ders37.c'de incelenen konular:
 
 - struct ile typedef kullanımı, ekrana renkli yazı basma
+
+###### ders38.c'de incelenen konular:
+
+- union kullanımı, struct ile farkı ve sizeof() fonksiyonu
+
+###### ders39.c'de incelenen konular:
+
+- enum ile kendi veri türümüzü tanımlama
