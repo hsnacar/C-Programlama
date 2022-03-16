@@ -12,11 +12,11 @@ include: programa dışarıdan bir dosyayı dahil etmek için kullanılır
 stdio.h: "standart input output" ifadesinin kısaltmasıdır
          printf scanf gibi fonksiyonlar stdio.h kütüphanesinde bulunduğu için
          bu fonksiyonları ancak ilgili kütüphane dosyasını programa dahil edilerek kullanabiliriz.
-         Kütüphane eklemeden kullanılabilecek sadece 33 komut vardır:
+         Kütüphane eklemeden kullanılabilecek sadece 32 anahtar kelime vardır:
             auto, else, long, switch, break, enum, register, typedef,
             case, extern, return, union, char, float, short, unsigned,
             const, for, signed, void, continue, goto, sizeof, volatile,
-            default, if, static, while, do, int, struct, _Packed, double
+            default, if, static, while, do, int, struct, double
 
 int:  (integer) tam sayı değişken türü. main'den dönecek değerin türünü tanımlamak için kullanılmış.
 

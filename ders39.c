@@ -55,7 +55,6 @@ Yukarıdaki örneğimizde hayat isimli bir veri türü tanımladık ve alabilece
 
 17. satırda başlayan switch ile yusuf değişkeninin verisini kontrol edip eşleşme durumunda gerekli ibareyi ekrana bastık.
 
-
 */
 
 /*

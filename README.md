@@ -161,3 +161,7 @@ Aynı konuları değişik özellikleriyle ilerleyen derslerde yeniden inceliyoru
 ###### ders39.c'de incelenen konular:
 
 - enum ile kendi veri türümüzü tanımlama
+
+###### ders40.c'de incelenen konular:
+
+- 32 anahtar kelime ve bundan sonrası
